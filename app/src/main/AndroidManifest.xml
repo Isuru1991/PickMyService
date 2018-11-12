@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".login_customer1" />
-        <activity android:name=".select_customer_service"></activity>
+        <activity android:name=".serviceprovider_customer_select"></activity>
     </application>
 
 </manifest>
