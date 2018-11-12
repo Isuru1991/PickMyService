@@ -3,11 +3,11 @@ package com.example.jdisuru.pickmyservice;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class rating extends AppCompatActivity {
+public class login_customer1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rating);
+        setContentView(R.layout.activity_login_customer1);
     }
 }
