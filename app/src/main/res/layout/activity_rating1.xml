@@ -35,7 +35,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginLeft="150dp"
             android:layout_marginRight="150dp"
-            app:srcCompat="@drawable/Photocircle" />
+            app:srcCompat="@drawable/photocircle" />
     </LinearLayout>
 
     <LinearLayout
