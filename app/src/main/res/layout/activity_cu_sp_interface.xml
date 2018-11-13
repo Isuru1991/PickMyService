@@ -60,7 +60,7 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:src="@drawable/customer"
+            android:src="@drawable/user"
             android:layout_gravity="center_horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -105,13 +105,13 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:src="@drawable/serviceprovider"
+                    android:src="@drawable/worker"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="CUSTOMER"
+                    android:text="SERVICE PROVIDER"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
