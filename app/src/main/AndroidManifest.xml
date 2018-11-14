@@ -11,7 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".serviceprovider_customer_select" />
         <activity android:name=".activity_customer_login_registration2" />
-        <activity android:name=".activity_receipt1"></activity>
+        <activity android:name=".activity_receipt1" />
+        <activity android:name=".customer_login_registration4"></activity>
     </application>
 
 </manifest>
