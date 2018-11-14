@@ -10,8 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".serviceprovider_customer_select" />
-        <activity android:name=".activity_customer_login_registration2" />
-        <activity android:name=".document_uplord"></activity>
+        <activity android:name=".activity_customer_login_registration2"></activity>
     </application>
 
 </manifest>
