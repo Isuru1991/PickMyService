@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Enter your password"
+            android:text=" Enter your password"
             android:textColor="#000"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -31,8 +31,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enter your password to login and get the service with Pick My Service"
-        android:textSize="15sp"
-        />
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"></LinearLayout>
@@ -41,8 +41,9 @@
         android:id="@+id/textView10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Password"
+        android:text=" Password"
         android:textColor="#000"
+        android:layout_marginLeft="5dp"
         />
 
     <EditText
