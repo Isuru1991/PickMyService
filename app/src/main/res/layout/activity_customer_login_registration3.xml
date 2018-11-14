@@ -19,6 +19,7 @@
         android:text="Hey there,                                                      Are you new to Pick My Service?"
         android:textSize="20sp"
         android:textColor="#000"
+        android:layout_marginLeft="5dp"
 
         />
     <LinearLayout
@@ -29,15 +30,43 @@
         android:id="@+id/textView13"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter the 4 digit code sent to your mobile number" />
+        android:text="Enter the 4 digit code sent to your mobile number"
+        android:layout_marginLeft="5dp"
+        />
 
-    <EditText
-        android:id="@+id/editText6"
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+        
+    </LinearLayout>
+    <com.goodiebag.pinview.Pinview
+        android:id="@+id/pinView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="loading the user mobile number" />
+        app:pinWidth="40dp"
+        app:pinHeight="40dp"
+        app:pinLength="4"
+        app:cursorVisible="true"
+        app:forceKeyboard="true"
+        app:hint="0"
+        app:inputType="number"
+        app:password="false"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></LinearLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:text="NEXT"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+
+        />
 
 
 </LinearLayout>
