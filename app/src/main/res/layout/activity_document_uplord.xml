@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="10dp"
     tools:context=".document_uplord">
 
 <LinearLayout
@@ -20,7 +19,7 @@
         android:layout_gravity="center"
         android:textSize="30dp"
         android:textStyle="bold"
-        android:laout_centerParent="center"
+
         />
 
     <LinearLayout
@@ -36,7 +35,7 @@
         android:textColor="@android:color/black"
         android:layout_marginLeft="20dp"
         android:textSize="20dp"
-        android:laout_centerParent="center"
+
         />
 
     <LinearLayout
@@ -99,7 +98,7 @@
         android:textColor="@android:color/black"
         android:layout_marginLeft="20dp"
         android:textSize="20dp"
-        android:laout_centerParent="center"
+
         />
     <LinearLayout
         android:layout_width="match_parent"
