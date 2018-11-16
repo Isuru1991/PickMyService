@@ -32,17 +32,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <TextView
             android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView"
+            android:text="Total"
             android:textAlignment="center"
             android:textColor="@color/cardview_dark_background"
             android:textSize="21sp"
-            android:textStyle="bold"
-            tools:text="Total" />
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -55,12 +55,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView"
+            android:text="LKR"
             android:textAlignment="textEnd"
             android:textColor="@color/cardview_dark_background"
             android:textSize="21sp"
-            android:textStyle="bold"
-            tools:text="LKR" />
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editText7"
@@ -83,29 +82,28 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <TextView
             android:id="@+id/textView15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginLeft="10dp"
-            android:text="TextView"
+            android:layout_weight="1"
+            android:text="Service Charge"
             android:textAlignment="viewStart"
             android:textColor="@color/defaultContentColor"
-            tools:text="Service Charge"
-            android:textSize="18sp"/>
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/editText8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:ems="10"
-            android:layout_marginRight="10dp"
             android:inputType="textPersonName"
-            android:text="Name"
-            android:textAlignment="viewEnd"
-            tools:text="2000.00" />
+            android:text="2000.00"
+            android:textAlignment="viewEnd" />
     </LinearLayout>
 
     <LinearLayout
