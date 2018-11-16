@@ -25,10 +25,10 @@
     </LinearLayout>
 
     <LinearLayout
-        android:background="#2BAE22"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal">
+        android:layout_gravity="center_horizontal"
+        android:background="#2BAE22">
 
         <ImageView
             android:id="@+id/imageView"
@@ -187,7 +187,6 @@
             android:layout_marginRight="8dp"
             android:numStars="5"
             android:rating="2"
-            android:theme="@style/RatingBar"
             app:layout_constraintEnd_toEndOf="parent" />
 
     </LinearLayout>

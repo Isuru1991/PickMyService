@@ -14,7 +14,7 @@
         <!--<activity android:name=".activity_receipt1" />-->
         <!--<activity android:name=".customer_login_registration4"></activity>-->
         <activity
-            android:name=".activity_receipt1"
+            android:name=".activity_rating1"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
